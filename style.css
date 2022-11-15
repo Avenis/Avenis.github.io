@@ -11,51 +11,35 @@ blockquote {
 h2 {
 
     font-family: Courier New;
+    padding-top:200px;
 }
 
 #message1 {
-    margin-left: px;
-    margin-right: 00px;
+    
+    
     margin-top: 0px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
-.cz1,
-.cz2,
-.cz3,
-.cz4,
-.cz5,
-.cz6,
-.cz7,
-.cz8,
-.cz9 {
-    padding-left: 450px;
-    padding-top: 120px;
+#message4, #message5, #message6, #message7{
 
-    font-family: Palatino Linotype;
-    padding-bottom: 10px;
 
-}
+padding-top:160px
 
-#message2 {
-    float: left;
-
-}
-
-img {
-    margin-right: 5px;
-}
-
-#container {
-    margin: 303px auto;
-    border: 0px solid black;
-    padding: 15px;
-    margin: 250px auto;
-    width: 500px;
-    height: auto;
-    float: center;
 }
 
 #title {
     text-align: center;
+}
+
+#footer{
+    text-align: center;
+    font-size:small;
+}
+
+#mess{
+    text-align:center;
+    font-size: small-caps;
+    padding-bottom: 100px;
+    
 }
