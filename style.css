@@ -11,35 +11,143 @@ blockquote {
 h2 {
 
     font-family: Courier New;
-    padding-top:200px;
+    padding-top: 16%;
 }
 
 #message1 {
-    
-    
-    margin-top: 0px;
-    margin-bottom: 100px;
+
+
+    margin-top: 10%;
+    margin-bottom: -5%;
+
+
 }
 
-#message4, #message5, #message6, #message7{
-
-
-padding-top:160px
-
+#message2,
+#message4,
+#message5,
+#message6,
+#message7,
+#message8 {
+    padding-top: 11%
 }
 
 #title {
     text-align: center;
 }
 
-#footer{
+#footer {
     text-align: center;
-    font-size:small;
+    font-size: small;
 }
 
-#mess{
-    text-align:center;
+#mess {
+    text-align: center;
     font-size: small-caps;
-    padding-bottom: 100px;
-    
+    padding-bottom: 5%;
+
 }
+
+body {
+    background-color: #D4D9DB
+}
+
+.aa {
+    width: 150px;
+
+}
+
+#logo1 {
+    text-align: center;
+
+}
+
+#photo1 {
+    text-align: center;
+
+}
+
+.photo {
+    width: 80%;
+}
+
+.zdj5 {
+    width: 60%
+}
+
+.zdj5 {
+    float: left;
+}
+
+.zdj6 {
+    width: 60%;
+}
+
+.zdj6 {
+    float: right;
+}
+
+#message2 {
+    text-align: right;
+}
+
+.zdj4 {
+    width: 60%;
+}
+
+.zdj4 {
+    float: left;
+}
+
+#message3 {
+    text-align: left;
+}
+
+.zdj3 {
+    width: 60%;
+}
+
+#message4 {
+    text-align: left;
+}
+
+.zdj3 {
+    float: right;
+}
+
+.zdj2 {
+    width: 60%;
+}
+
+.zdj2 {
+    float: left;
+}
+
+#message5 {
+    text-align: right;
+}
+
+.zdj1 {
+    width: 60%;
+}
+
+.zdj1 {
+    float: right;
+}
+
+#message6 {
+    text-align: left;
+}
+
+.zdj7 {
+    width: 60%;
+}
+
+.zdj7 {
+    float: left;
+}
+
+#message7 {
+    text-align: left;
+}
+
