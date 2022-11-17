@@ -221,10 +221,6 @@ body {
 .scroll {
     width: 2%;
 }
-
-.scroll {
-    margin-bottom: 50%;
-}
 .scroll{
-    padding-top:10%;
+    padding-right:200px;
 }
