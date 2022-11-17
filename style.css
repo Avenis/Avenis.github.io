@@ -13,8 +13,9 @@ h2 {
     font-family: Courier New;
     padding-top: 13%;
 }
-u{
-    color:blue;
+
+u {
+    color: blue;
 }
 
 #message1 {
@@ -23,7 +24,7 @@ u{
     margin-top: 10%;
     margin-bottom: -2%;
     padding-bottom: -30%;
-    
+
 }
 
 #message2,
@@ -33,7 +34,6 @@ u{
 #message7,
 #message8 {
     padding-top: 3%
-    
 }
 
 #title {
@@ -54,7 +54,6 @@ u{
 
 body {
     background-color: #D4D9DB
-    
 }
 
 .aa {
@@ -87,19 +86,22 @@ body {
 .zdj6 {
     width: 60%;
 }
-.zdj6{
-    padding-right:10%;
+
+.zdj6 {
+    padding-right: 15%;
 }
-.zdj6{
-    margin-top:-15%;
+
+.zdj6 {
+    margin-top: -15%;
 }
+
 .zdj6 {
     float: right;
 }
 
 #message2 {
     text-align: left;
-    
+
 }
 
 .zdj4 {
@@ -109,11 +111,13 @@ body {
 .zdj4 {
     float: left;
 }
+
 .zdj4 {
-    padding-left:15%;
+    padding-left: 15%;
 }
+
 .zdj4 {
-    margin-top:-5%;
+    margin-top: -5%;
 }
 
 #message3 {
@@ -131,11 +135,13 @@ body {
 .zdj3 {
     float: right;
 }
+
 .zdj3 {
-    padding-right:15%;
+    padding-right: 15%;
 }
+
 .zdj3 {
-    padding-top:5%;
+    padding-top: 5%;
 }
 
 
@@ -146,12 +152,15 @@ body {
 .zdj2 {
     float: left;
 }
+
 .zdj2 {
-    padding-left:7%;
+    padding-left: 7%;
 }
+
 .zdj2 {
-    margin-top:-12%;
+    margin-top: -12%;
 }
+
 #message5 {
     text-align: right;
 }
@@ -163,8 +172,9 @@ body {
 .zdj1 {
     float: right;
 }
+
 .zdj1 {
-   margin-top:-18%;
+    margin-top: -18%;
 }
 
 #message6 {
@@ -178,28 +188,43 @@ body {
 .zdj7 {
     float: left;
 }
+
 .zdj7 {
-    margin-top:-11%;
+    margin-top: -11%;
 }
+
 .zdj7 {
-    padding-left:28%;
+    padding-left: 28%;
 }
 
 #message7 {
     text-align: center;
-   margin-top:5%;
-}
-#message2{
-    margin-top:11%;
-}
-#message6{
-    margin-top:-5%;
-}
-#photo1{
-    margin-bottom:-10%;
-}
-#message8{
-    margin-top:-10%;
+    margin-top: 5%;
 }
 
+#message2 {
+    margin-top: 11%;
+}
 
+#message6 {
+    margin-top: -5%;
+}
+
+#photo1 {
+    margin-bottom: -10%;
+}
+
+#message8 {
+    margin-top: -10%;
+}
+
+.scroll {
+    width: 2%;
+}
+
+.scroll {
+    margin-bottom: 50%;
+}
+.scroll{
+    padding-top:10%;
+}
