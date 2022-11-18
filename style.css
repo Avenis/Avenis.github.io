@@ -3,11 +3,6 @@ h4 {
     text-align: center;
 }
 
-blockquote {
-
-    text-align: center;
-}
-
 h2 {
 
     font-family: Courier New;
@@ -16,6 +11,10 @@ h2 {
 
 u {
     color: blue;
+}
+
+body {
+    background-color: #D4D9DB
 }
 
 #message1 {
@@ -36,6 +35,23 @@ u {
     padding-top: 3%
 }
 
+#message7 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#message2 {
+    margin-top: 11%;
+}
+
+#message6 {
+    margin-top: -5%;
+}
+
+#message8 {
+    margin-top: -210px;
+}
+
 #title {
     text-align: center;
 }
@@ -43,17 +59,14 @@ u {
 #footer {
     text-align: center;
     font-size: small;
+    padding-bottom: 100px;
 }
 
 #mess {
     text-align: center;
     font-size: small-caps;
-    padding-bottom: 10%;
-
-}
-
-body {
-    background-color: #D4D9DB
+    padding-bottom: 50px;
+    margin-top: -150px;
 }
 
 .aa {
@@ -63,31 +76,31 @@ body {
 
 #logo1 {
     text-align: center;
-
 }
 
 #photo1 {
     text-align: center;
-
+    margin-bottom: -10%;
 }
 
 .photo {
     width: 80%;
 }
 
-.zdj5 {
+.zdj5,
+.zdj6 {
     width: 60%
 }
 
-.zdj5 {
+.zdj2,
+.zdj4,
+.zdj5,
+.zdj7 {
     float: left;
 }
 
-.zdj6 {
-    width: 60%;
-}
-
-.zdj6 {
+.zdj6,
+.zdj3 {
     padding-right: 15%;
 }
 
@@ -95,21 +108,15 @@ body {
     margin-top: -15%;
 }
 
+.zdj1,
+.zdj3,
 .zdj6 {
     float: right;
 }
 
-#message2 {
-    text-align: left;
-
-}
-
-.zdj4 {
+.zdj4,
+.zdj3 {
     width: 40%;
-}
-
-.zdj4 {
-    float: left;
 }
 
 .zdj4 {
@@ -120,39 +127,24 @@ body {
     margin-top: -5%;
 }
 
-#message3 {
+#message2,
+#message3,
+#message4,
+#message6 {
     text-align: left;
-}
-
-.zdj3 {
-    width: 40%;
-}
-
-#message4 {
-    text-align: left;
-}
-
-.zdj3 {
-    float: right;
-}
-
-.zdj3 {
-    padding-right: 15%;
 }
 
 .zdj3 {
     padding-top: 5%;
 }
 
-
-.zdj2 {
+.zdj1,
+.zdj2,
+.zdj7 {
     width: 50%;
 }
 
-.zdj2 {
-    float: left;
-}
-
+.zdj1,
 .zdj2 {
     padding-left: 7%;
 }
@@ -166,27 +158,7 @@ body {
 }
 
 .zdj1 {
-    width: 50%;
-}
-
-.zdj1 {
-    float: right;
-}
-
-.zdj1 {
     margin-top: -18%;
-}
-
-#message6 {
-    text-align: left;
-}
-
-.zdj7 {
-    width: 45%;
-}
-
-.zdj7 {
-    float: left;
 }
 
 .zdj7 {
@@ -197,30 +169,18 @@ body {
     padding-left: 28%;
 }
 
-#message7 {
-    text-align: center;
-    margin-top: 5%;
-}
-
-#message2 {
-    margin-top: 11%;
-}
-
-#message6 {
-    margin-top: -5%;
-}
-
-#photo1 {
-    margin-bottom: -10%;
-}
-
-#message8 {
-    margin-top: -10%;
-}
-
 .scroll {
-    width: 2%;
+    width: 3%;
 }
-.scroll{
-    padding-right:200px;
+
+#scroll {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    filter: invert(1);
+}
+
+.container {
+    position: relative;
 }
