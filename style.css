@@ -1,138 +1,97 @@
-h4 {
-    font-family: Verdana;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    font-family: Courier New;
-    padding-top: 20%;
-}
-
-u {
-    color: blue;
-}
-
 body {
     background-color: #D4D9DB
 }
 
-#title {
-    text-align: center;
-}
-
-#footer {
-    text-align: center;
-    font-size: small;
-    padding-bottom: -100px;
-    position: relative;
-    top: -800px;
-}
-
-#mess {
-    text-align: center;
-    font-size: small-caps;
-    padding-bottom: -100px;
-    margin-top: -30px;
-    position: relative;
-    top: -800px;
-}
-
 .aa {
     width: 150px;
-
-}
-
-#logo1 {
-    text-align: center;
-    
-}
-
-#photo1 {
-    text-align: center;
-    margin-bottom: -10%;
-}
-.photo {
-    width: 100%;
 }
 
 .scroll {
     width: 3%;
 }
 
+#footer {
+
+    font-size: small;
+}
+
 #scroll {
     position: absolute;
     text-align: center;
-    width: 100%;
-    margin-top: 5%;
+    margin-top: -5%;
     filter: invert(1);
 }
 
-.container {
-    position: relative;
-}
-
-.zdj6{
-   
-    position:relative;
-    left:400px;
-    top:100px;
-   
-}
-.containers1{
-margin-top: -700px;
-margin-left:800px;
-text-align: center;
-}
-
-.zdj5{
-   padding-right: 500px;
-}
-.zdj3{
-    float: right;
-    margin-top: 200px;
-}
-.containers2{
-    margin-top: -350px;
-    margin-right:800px;
-    text-align: center;
-    
+@media (min-width: 576px) {
+    .master-craftman {
+        margin-left: 0px;
+        margin-bottom: -5rem;
     }
-    .containers3{
-        margin-top: -400px;
-        margin-left:800px;
-        text-align: center;
-        
-        }
-        .zdj2{
-            margin-top:-200px;
-            margin-left:-220px;
-        }
-.zdj1{
-    margin-top:-750px;
-    padding-left:300px;
 }
 
-.zdj7{
-    margin-top:-800px;
-    margin-left:-220px;
+@media (min-width: 768px) {
+    .master-craftman {
+        margin-left: -3rem;
+
+    }
 }
-.containers4{
-    position:relative;
-    top:-700px;
-    bottom: 200px;
-    left:-500px;
-    text-align:center;
+
+.containers2 {
+    margin-right: -5rem;
+    padding-top: 5rem;
+    z-index: 1;
 }
-.containers5{
-    position: relative;
-    top:-600px;
-    left: 400px;
-    text-align: center;
+
+.zdj6 {
+    margin-bottom: -2rem;
 }
-.containers6{
-    position: relative;
-    top:-600px;
-    right: 400px;
-    text-align: center;;
+
+.zdj5 {
+    margin-bottom: -5rem;
+
+}
+/* 
+.zdj7 {
+    margin-right: 5rem;
+} */
+
+.zdj1 {
+
+}
+
+.zdj3 {
+    height: fit-content;
+    z-index: -1;
+}
+
+.zdj2 {
+    width: 120%;
+}
+
+.zdj7 {
+    /* margin-left: 15rem; */
+}
+
+.containers3 {
+    align-self: flex-end;
+}
+
+.containers4 {
+    padding-top: 7rem;
+}
+
+.containers5 {
+    align-self: flex-end;
+    /* margin-left: 35rem;
+    margin-bottom: -15rem;
+    padding-top: 2rem;
+    padding-bottom: 15rem; */
+}
+
+.custom-design-container {
+    margin-top: -16rem !important;
+}
+
+.homes-for-sale-container {
+    margin-top: -8rem !important;
 }
