@@ -28,53 +28,40 @@
     margin-left: -3rem;
   }
 }
-.containers2 {
+.Timeless-container {
   margin-right: -5rem;
   padding-top: 5rem;
   z-index: 1;
 }
-
-.zdj6 {
+.Timeless-container .Timeless {
   margin-bottom: -2rem;
 }
 
-.zdj5 {
+.Master {
   margin-bottom: -5rem;
 }
 
-/* 
-.zdj7 {
-    margin-right: 5rem;
-} */
-.zdj3 {
+.Jacksonvile {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   z-index: -1;
 }
 
-.zdj2 {
+.Florida {
   width: 120%;
 }
 
-.zdj7 {
-  /* margin-left: 15rem; */
-}
-
-.containers3 {
+.Energy-container {
   align-self: flex-end;
 }
 
-.containers4 {
+.Amelia-island-container {
   padding-top: 7rem;
 }
 
-.containers5 {
+.Homes-container {
   align-self: flex-end;
-  /* margin-left: 35rem;
-  margin-bottom: -15rem;
-  padding-top: 2rem;
-  padding-bottom: 15rem; */
 }
 
 .custom-design-container {
