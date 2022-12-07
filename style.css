@@ -1,3 +1,11 @@
+h2 {
+  font-family: Courier New;
+}
+
+h4 {
+  font-family: Verdana;
+}
+
 .aa {
   width: 150px;
 }
@@ -17,50 +25,52 @@
   filter: invert(1);
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .master-craftman {
     margin-left: 0px;
     margin-bottom: -5rem;
+  }
+  .florida {
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
   .master-craftman {
     margin-left: -3rem;
   }
+  .florida {
+    width: 120%;
+  }
 }
-.Timeless-container {
+.timeless-container {
   margin-right: -5rem;
   padding-top: 5rem;
   z-index: 1;
 }
-.Timeless-container .Timeless {
+.timeless-container .timeless {
   margin-bottom: -2rem;
 }
 
-.Master {
+.master {
   margin-bottom: -5rem;
 }
 
-.Jacksonvile {
+.jacksonvile {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   z-index: -1;
 }
 
-.Florida {
-  width: 120%;
-}
-
-.Energy-container {
+.energy-container {
   align-self: flex-end;
 }
 
-.Amelia-island-container {
+.amelia-island-container {
   padding-top: 7rem;
 }
 
-.Homes-container {
+.homes-container {
   align-self: flex-end;
 }
 
