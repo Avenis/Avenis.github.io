@@ -25,26 +25,42 @@ h4{
     filter: invert(1);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .master-craftman {
         margin-left: 0px;
         margin-bottom: -5rem;
     }
 
-    .florida{
+    .florida {
         width: 100%;
     }
+    
 }
 
 @media (min-width: 768px) {
     .master-craftman {
         margin-left: -3rem;
-
+        
     }
 
-    .florida{
+    .florida {
         width: 120%;
     }
+
+    .homes-for-sale-container {
+        margin-top: -8rem !important;
+    }
+    .amelia-island-container {
+    
+        padding-top: 7rem;
+    }
+    .master{
+        margin-bottom: -5rem;
+    }
+    .custom-design-container {
+        margin-top: -16rem !important;
+    }
+    
 }
 
 .timeless-container {
@@ -57,32 +73,18 @@ h4{
     }
 }
 
-.master{
-    margin-bottom: -5rem;
-}
-
-.jacksonvile {
-    height: fit-content;
-    z-index: -1;
-}
 
 .energy-container {
     align-self: flex-end;
-}
-
-.amelia-island-container {
-    padding-top: 7rem;
 }
 
 .homes-container {
     align-self: flex-end;
    
 }
-
-.custom-design-container {
-    margin-top: -16rem !important;
+.jacksonvile {
+    height: fit-content;
+    z-index: -1;
 }
 
-.homes-for-sale-container {
-    margin-top: -8rem !important;
-}
+
